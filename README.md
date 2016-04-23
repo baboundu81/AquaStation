@@ -9,5 +9,6 @@ Project of a connected station to monitor the temperature and the pH of the wate
 
 ## Software
 * Embedded software : C++ code Based on FreeRTOS (no necessary but I wanted to learn how to use it)
-* External database to periodicatly store pH and temperature values
-* Mobile application : multi-plateform application developped with Apache Cordova to get data and notify user if threshold have been reached
+  * FreeRTOS for Arduino is available in the libraries manager
+* External database on a server to periodicatly store pH and temperature values
+* Mobile application : multi-plateform application developped with [Apache Cordova](https://cordova.apache.org/) to get data on the server and notify the user if thresholds have been reached
