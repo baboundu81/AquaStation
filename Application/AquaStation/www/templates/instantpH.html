@@ -1,5 +1,37 @@
-  <ion-view view-title="pH instantannée">
-    <ion-content class="padding">
-        <h1>pH {{test}}</h1>
+  <ion-view view-title="pH instantanné">
+    <ion-content class="padding content-stable" scroll="false">
+        <div class="horizontalCenter">
+            <div class="verticalCenter">
+                <div class="row row-center">
+                    <div class="col col-center">
+                        <h3 class="date-measure"> Dernière mesure</h3>
+                    </div>
+                </div>
+                <div class="row row-center">
+                    <div class="col col-center">
+                        <p class="date-measure">Le {{date}}</p>
+                    </div>
+                </div>
+                <div class="row row-center">
+                    <div class="col col-center">
+                        <span class="icon ion-erlenmeyer-flask-bubbles pHvalueIcon">
+                            <h1 class="pHvalue">{{pH}}</h1>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--
+        <canvas id="pH_doughnut"
+                height="300px">
+        </canvas>
+-->
+<!--
+        <div id="instantpH" class="labelContainer">
+            <div class="instantValue">
+                <h1>{{test}}</h1>
+            </div>
+        </div>
+-->
     </ion-content>
   </ion-view>

@@ -1,5 +1,25 @@
   <ion-view view-title="Température instantannée">
-    <ion-content class="padding">
-        <h1>Température {{test}}</h1>
+    <ion-content class="padding content-stable" scroll="false">
+        <div class="horizontalCenter">
+            <div class="verticalCenter">
+                <div class="row">
+                    <div class="col col-center">
+                        <h3 class="date-measure"> Dernière mesure</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-center">
+                        <p class="date-measure">Le {{date}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-center">
+                        <i class="icon ion-thermometer temperatureValueIcon">
+                        </i>
+                        <h1 class="temperatureValue">{{temperature}} °C</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
     </ion-content>
   </ion-view>

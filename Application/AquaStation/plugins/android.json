@@ -7,8 +7,23 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.aquastation711596"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.aquastation711596"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.aquastation711596"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.aquastation711596"
+        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.lepetitvideaste.AquaStation"
+            "PACKAGE_NAME": "com.ionicframework.aquastation711596"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.aquastation711596"
         }
     },
     "dependent_plugins": {}
