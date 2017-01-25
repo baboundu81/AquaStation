@@ -9,12 +9,14 @@ Project of a connected station to monitor the temperature and the pH of the wate
 
 ## Software
 * Embedded software : C++ code Based on a home made scheduller (using timer)
-* External database on a server to periodicatly store pH and temperature values
-* PHP scripts to store and read data from the database
-* Mobile application : multi-plateform application to get data on the server and adjust the settings of the station
+* Back end :
+..* External database on a server to periodicatly store pH and temperature values
+..* PHP scripts to store and read data from the database (backend)
+* Frontend : Mobile application : multi-plateform application to get data on the server and adjust the settings of the station
+
 
 ## Tools
 * Arduino IDE (Embedded software on ESP-12)
 * Eagle (PCB routing)
-* [Apache Cordova](https://cordova.apache.org/) (Application)
 * [Ionic](http://ionicframework.com/) (Application)
+
