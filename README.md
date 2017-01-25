@@ -10,8 +10,8 @@ Project of a connected station to monitor the temperature and the pH of the wate
 ## Software
 * Embedded software : C++ code Based on a home made scheduller (using timer)
 * Back end :
-..* External database on a server to periodicatly store pH and temperature values
-..* PHP scripts to store and read data from the database (backend)
+  * External SQL database on a server to periodicatly store pH and temperature values
+  * PHP scripts to store and read data from the database
 * Frontend : Mobile application : multi-plateform application to get data on the server and adjust the settings of the station
 
 
