@@ -12,7 +12,7 @@ Project of a connected station to monitor the temperature and the pH of the wate
 * Back end :
   * External SQL database on a server to periodicatly store pH and temperature values
   * PHP scripts to store and read data from the database
-* Frontend : Mobile application : multi-plateform application to get data on the server and adjust the settings of the station
+* Frontend : multi-plateform application to get data on the server and adjust the settings of the station
 
 
 ## Tools
